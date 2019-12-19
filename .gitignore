@@ -1,0 +1,17 @@
+# Binaries
+**/bin/
+!vendor/*
+bin-int/
+
+# Visual Studio files and folder
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+
+#Make
+Makefile
+nul
+*.cbp
+*.layout
