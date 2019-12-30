@@ -5,6 +5,9 @@ project "ImGui"
 	staticruntime "on"
 
 
+	warnings "off"
+	disablewarnings { "26495" }
+
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
